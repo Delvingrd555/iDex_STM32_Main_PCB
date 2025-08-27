@@ -1,0 +1,340 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f073a583-a73f-4cc8-bed3-13503345f0f4")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 88.9 77.47) (xy 110.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1308e8bd-d059-4dec-adf0-29b3eae71de0")
+	)
+	(wire
+		(pts
+			(xy 109.22 54.61) (xy 118.11 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "180725b7-e235-401d-bb65-15c7ae1063f5")
+	)
+	(wire
+		(pts
+			(xy 110.49 77.47) (xy 110.49 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ec9013-06bc-498a-af95-f93c9ca345d0")
+	)
+	(wire
+		(pts
+			(xy 113.03 72.39) (xy 113.03 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba4808b-29a2-4566-ac0d-c89feab1b0f6")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.96) (xy 118.11 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c50086-a803-47d5-886d-0cff785c393f")
+	)
+	(wire
+		(pts
+			(xy 88.9 63.5) (xy 111.76 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6830de6-b4e2-44c9-8253-b197ab797a9f")
+	)
+	(wire
+		(pts
+			(xy 110.49 127) (xy 120.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d266337c-499a-4680-b372-841483478fb3")
+	)
+	(wire
+		(pts
+			(xy 109.22 58.42) (xy 109.22 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db11974e-1a4d-461a-9d7a-e9786b45c25b")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4d0666-4bd9-48b7-8677-e442877d0f31")
+	)
+	(wire
+		(pts
+			(xy 111.76 63.5) (xy 111.76 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e281c095-c319-4053-8e8e-9982e3514271")
+	)
+	(wire
+		(pts
+			(xy 88.9 72.39) (xy 113.03 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7432e9-06ca-40d2-81f9-f1b39357f4aa")
+	)
+	(wire
+		(pts
+			(xy 113.03 118.11) (xy 120.65 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb719b5e-8505-4ce8-a81d-3e6657eea500")
+	)
+	(sheet
+		(at 66.04 53.34)
+		(size 22.86 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "613f0645-2016-44ec-9033-986a6bcf80fe")
+		(property "Sheetname" "Power_Supply_Schematic"
+			(at 66.04 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply_Schematic.kicad_sch"
+			(at 66.04 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" input
+			(at 88.9 58.42 0)
+			(uuid "a2c663fb-e572-4984-abcd-1de478c14a10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADE_GND" input
+			(at 88.9 77.47 0)
+			(uuid "9729e661-d6a8-4b62-9dd5-1dc6080444d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 88.9 63.5 0)
+			(uuid "486c3e81-674b-4f36-bd48-fbb129e1f01c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "_ADE_3.3V" input
+			(at 88.9 72.39 0)
+			(uuid "eb1d30f7-0c17-4a76-a1d3-a87d07eee438")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "iDex_PQ_PCB_V1"
+				(path "/f073a583-a73f-4cc8-bed3-13503345f0f4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 96.52)
+		(size 36.83 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dd951452-7741-4411-a6d6-a7498f347683")
+		(property "Sheetname" "ADE9430_Schematic"
+			(at 120.65 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADE9430_Schematic.kicad_sch"
+			(at 120.65 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ADE_GND" input
+			(at 120.65 127 180)
+			(uuid "4b0ee1d5-f809-4b09-b9e6-41005e4b7265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "_ADE_3.3V" input
+			(at 120.65 118.11 180)
+			(uuid "a4c6127e-74b0-4ae6-99c0-d445fb184e2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "iDex_PQ_PCB_V1"
+				(path "/f073a583-a73f-4cc8-bed3-13503345f0f4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 36.83)
+		(size 38.1 46.99)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4d428b1-e4dd-4190-b151-d9b63e1aba16")
+		(property "Sheetname" "STM32_Schematic"
+			(at 118.11 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32_Schematic.kicad_sch"
+			(at 118.11 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+3.3V" input
+			(at 118.11 54.61 180)
+			(uuid "664eeceb-d9d0-4e8b-8133-36e2e421eda2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 118.11 60.96 180)
+			(uuid "088f840d-5d37-46f3-ae31-381458c98c4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "iDex_PQ_PCB_V1"
+				(path "/f073a583-a73f-4cc8-bed3-13503345f0f4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
